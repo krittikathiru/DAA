@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	char s[100] ;
+	int i;
+	printf("enter a string to reverse:");
+	scanf("%s",&s);
+	printf("reverse of the string %s\n",strrev(s));
+	return 0;
+}
