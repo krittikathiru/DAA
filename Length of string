@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	char str [20];
+	int i,count=0;
+	printf("enter a string");
+	scanf("%d",&str);
+	for(i=1;str[i]!='\0';i++);
+	{ 
+		count++;
+	}
+	printf("%d",count);
+	return 0;
+}
